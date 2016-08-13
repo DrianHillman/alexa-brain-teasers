@@ -57,10 +57,10 @@ var questions = [
     },
     {
         "12 candles were afire with light. The wind blew out 5 of them. How many candles were left?": [
-            "twelve",
-            "0",
-            "7",
-            "5"
+            "twelve were left",
+            "0 were left",
+            "7 were left",
+            "5 were left"
         ]
     },
     {
@@ -124,10 +124,10 @@ var questions = [
     },
     {
         "There is a branch with 10 birds on it. I shot 2 of them and then 1 more. How many birds are left on the branch?": [
-            "0",
-            "2",
-            "8",
-            "7"
+            "0 were left",
+            "2 were left",
+            "8 were left",
+            "7 were left"
         ]
     },
     {
