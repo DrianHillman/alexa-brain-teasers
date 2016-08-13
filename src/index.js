@@ -13,6 +13,10 @@
  * supports 1 player at a time, and does not support games across sessions.
  */
 
+// This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. Content provided by the OpenTriviaQA project: https://github.com/uberspot/OpenTriviaQA
+//<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
 'use strict';
 
 /**
@@ -21,245 +25,162 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "Which of these is true about the sleep of zebras?": [
+            "They sleep standing up",
+            "They tend to fall asleep every 5 to 6 hours",
+            "They need more than 12 hours of sleep a day"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "A farmer had 12 sheep and 3 cows. All of the animals except 9 sheep died. How many animals did he have left in his farm?": [
+            "9 sheep were left",
+            "5 cows and 1 sheep were left",
+            "2 cows were left",
+            "None were left"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "If you were running a race and passed the person in second place, what place would you be in?": [
+            "Second",
+            "First",
+            "Third",
+            "Out of the race"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "If the mother of a boy spanks him and then his father comes and does the same, who hurts the most?": [
+            "The boy",
+            "The mother",
+            "The father",
+            "The boys brother"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "12 candles were afire with light. The wind blew out 5 of them. How many candles were left?": [
+            "twelve",
+            "0",
+            "7",
+            "5"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "A team of two horses ran for 3 miles. How many miles did each of the horses run?": [
+            "3 miles",
+            "one point five miles",
+            "0 miles",
+            "6 miles"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "Take two apples from three apples and what do you have?": [
+            "two apples",
+            "three apples",
+            "one apple",
+            "no apples"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+        "What creature is responsible for the most human deaths?": [
+            "The mosquito",
+            "The great white shark",
+            "The brown recluse spider",
+            "The hippo"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "Is it possible to test positive on a breathalyzer after drinking only a glass of milk?": [
+            "Yes",
+            "No"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Is it possible to test positive on a breathalyzer after drinking only a glass of milk?": [
+            "Yes",
+            "No"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "What is the number of men born last year in USA?": [
+            "None",
+            "two million, thirteen thousand eight hundred forty one",
+            "six million, nine-hundred fourteen thousand, threehundred eighty-one",
+            "one million five hundred and two thousand, one hundred and six"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+        "What is heavier a pound of bricks or a pound of feathers?": [
+            "Their weight is equal",
+            "There is no way to tell",
+            "The feathers",
+            "The bricks"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "In a house with a maid, a mail receiver, and a chef, the owner was murdered on a Sunday morning. The police questioned all 3 people (the chef, the mail receiver, and the maid). The chef said, I was making her breakfast. The mail receiver said, I was getting the mail. Finally, the maid said, I was cleaning her living room. The police arrested one of them right after the interview. Who got arrested?": [
+            "The mail receiver",
+            "The maid",
+            "The chef"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "There is a branch with 10 birds on it. I shot 2 of them and then 1 more. How many birds are left on the branch?": [
+            "0",
+            "2",
+            "8",
+            "7"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
+        "A father has seven sons, and each son has one sister. How many children does the father have?": [
+            "8",
+            "forteen",
+            "fifteen",
+            "9"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
+        "A woman has 7 children, half of them are boys. Can this statement be true?": [
+            "Yes",
+            "No"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+        "Clouds are made up of these": [
+            "Water droplets and ice crystals",
+            "Carbon atoms",
+            "Oxygen ions",
+            "Dust mites"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "In the United States, why do we change our clocks on the daylight saving time dates in April and October?": [
+            "To conserve energy",
+            "To increase the hours of the day",
+            "To extend the working day",
+            "Because the tourist period in most countries starts in May"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+        "What food results in negative calories when eaten?": [
+            "All of these",
+            "Carrots",
+            "Celery",
+            "Radishes"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+        "If you get sick at the airport it could be a…": [
+            "terminal illness",
+            "real upsetting experience",
+            "disaster for the folks around you",
+            "sign of a fatal disease"
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
-        ]
-    },
-    {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "Fill in the blank. I think Santa has riverfront property in Brazil, all our presents came from…": [
+            "Amazon this year",
+            "Deep in the jungle",
+            "Rio de Janeiro"
         ]
     }
 ];
@@ -385,11 +306,11 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Reindeer Games"; // Be sure to change this for your skill.
+var CARD_TITLE = "Brain Teasers"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Reindeer Games. I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Brain Teasers! I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
